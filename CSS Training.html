@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS ID & CLASSES</title>
+        <style>
+            /*
+            h1{
+                color: red;
+            }
+            */
+            #main{
+                font-family: cursive;
+                margin: 30px 50px 50px 75px; /*Top, Right, Bottom, Left - Clockwise direction*/
+                border: 3px groove blue; /*thickness, solid or groove or ridge, color*/
+                padding: 4%;
+                width: 20%;
+                text-align: center;
+            }
+            .group1{
+                color: red;
+                font-size: 25px;
+            }
+            #main2{
+                margin: 5% 10%; /*top & bottom, left & right*/
+                border: 5px dashed green;
+                padding: 3% 5%;
+            }
+
+            #main3{
+                margin-top: 5%;
+                margin-left: 6%;
+                border: 5px dotted orange;
+                padding-left: 6%;
+                padding-bottom: 3%;
+            }
+
+            .outer-box{
+                display: flex;
+                font-size: 0.5rem;
+                flex-direction: rows;
+                justify-content: space-evenly;
+            }
+
+            .box-1{
+                flex-basis: 20%;
+            }
+
+            .box-2{
+                flex-basis: 20%;
+            }
+
+            .box-3{
+                flex-basis: 20%;
+            }
+            
+            .box-4{
+                flex-basis: 20%;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1 id="main">Heading 1</h1> 
+        <h2 class="group1">Sub Heading 1</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil aspernatur blanditiis fuga similique neque, id fugit nemo facilis amet molestiae eveniet officia mollitia nostrum pariatur delectus doloremque consequatur saepe maiores minus ipsum eius. Fuga explicabo nostrum quam provident nesciunt distinctio ipsum ex facilis voluptas, porro reiciendis expedita assumenda quaerat nisi!</p>
+        <h2 id="main3">Sub Heading 2</h2>
+        <p class="group1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum ducimus reiciendis perspiciatis accusamus repudiandae, nam mollitia maxime officiis, fuga quaerat error id nemo dignissimos alias nesciunt eum esse ex deserunt possimus rerum. Dolore quos magni mollitia placeat dolores soluta, esse voluptatum, quod, repudiandae dicta natus laudantium autem consequatur suscipit ullam?</p>
+        <h1 id="main2">Heading 2</h1>
+
+        <div class="outer-box">
+            <div class="box-1"><h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vel, a itaque accusamus repellendus facere! Recusandae officiis exercitationem vel veniam temporibus culpa itaque ipsum laborum similique sunt amet nisi, iusto sed illo molestiae ducimus, aliquid in perspiciatis at </h1></div>
+            <div class="box-2"><h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vel, a itaque accusamus repellendus facere! Recusandae officiis exercitationem vel veniam temporibus culpa itaque ipsum laborum similique sunt amet nisi, iusto sed illo molestiae ducimus, aliquid in perspiciatis at </h1></div>
+            <div class="box-3"><h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vel, a itaque accusamus repellendus facere! Recusandae officiis exercitationem vel veniam temporibus culpa itaque ipsum laborum similique sunt amet nisi, iusto sed illo molestiae ducimus, aliquid in perspiciatis at </h1></div>
+            <div class="box-4"><h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vel, a itaque accusamus repellendus facere! Recusandae officiis exercitationem vel veniam temporibus culpa itaque ipsum laborum similique sunt amet nisi, iusto sed illo molestiae ducimus, aliquid in perspiciatis at </h1></div>
+        </div>
+        <a href="tel:+4733378901">Call now</a>
+        <a href="javascript:alert('Hello World!');">Alert now</a>
+    </body>
+</html>
